@@ -15,6 +15,13 @@
 		74022C731E5181570049FB76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74022C711E5181570049FB76 /* LaunchScreen.storyboard */; };
 		74022C7E1E5181570049FB76 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74022C7D1E5181570049FB76 /* ______Tests.m */; };
 		74022C891E5181570049FB76 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74022C881E5181570049FB76 /* ______UITests.m */; };
+		74022C971E51827A0049FB76 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74022C961E51827A0049FB76 /* libz.tbd */; };
+		74022C991E5182910049FB76 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74022C981E5182910049FB76 /* JavaScriptCore.framework */; };
+		74022C9B1E5182AC0049FB76 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74022C9A1E5182AC0049FB76 /* libicucore.tbd */; };
+		74022C9D1E5182DD0049FB76 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74022C9C1E5182DD0049FB76 /* libstdc++.tbd */; };
+		74022CA41E5183600049FB76 /* SMS_SDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74022C9F1E5183600049FB76 /* SMS_SDKLocalizable.strings */; };
+		74022CA51E5183600049FB76 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74022CA11E5183600049FB76 /* MOBFoundation.framework */; };
+		74022CA61E5183610049FB76 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74022CA21E5183600049FB76 /* SMS_SDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,14 @@
 		74022C841E5181570049FB76 /* 短信验证测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "短信验证测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74022C881E5181570049FB76 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		74022C8A1E5181570049FB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74022C961E51827A0049FB76 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		74022C981E5182910049FB76 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		74022C9A1E5182AC0049FB76 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		74022C9C1E5182DD0049FB76 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		74022CA01E5183600049FB76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SMS_SDKLocalizable.strings; sourceTree = "<group>"; };
+		74022CA11E5183600049FB76 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		74022CA21E5183600049FB76 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		74022CA31E5183600049FB76 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SMS_SDKLocalizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74022C9D1E5182DD0049FB76 /* libstdc++.tbd in Frameworks */,
+				74022C9B1E5182AC0049FB76 /* libicucore.tbd in Frameworks */,
+				74022CA51E5183600049FB76 /* MOBFoundation.framework in Frameworks */,
+				74022CA61E5183610049FB76 /* SMS_SDK.framework in Frameworks */,
+				74022C991E5182910049FB76 /* JavaScriptCore.framework in Frameworks */,
+				74022C971E51827A0049FB76 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,10 @@
 		74022C571E5181570049FB76 = {
 			isa = PBXGroup;
 			children = (
+				74022C981E5182910049FB76 /* JavaScriptCore.framework */,
+				74022C9C1E5182DD0049FB76 /* libstdc++.tbd */,
+				74022C9A1E5182AC0049FB76 /* libicucore.tbd */,
+				74022C961E51827A0049FB76 /* libz.tbd */,
 				74022C621E5181570049FB76 /* 短信验证测试 */,
 				74022C7C1E5181570049FB76 /* 短信验证测试Tests */,
 				74022C871E5181570049FB76 /* 短信验证测试UITests */,
@@ -101,6 +126,7 @@
 		74022C621E5181570049FB76 /* 短信验证测试 */ = {
 			isa = PBXGroup;
 			children = (
+				74022C9E1E5183600049FB76 /* SMS_SDK */,
 				74022C661E5181570049FB76 /* AppDelegate.h */,
 				74022C671E5181570049FB76 /* AppDelegate.m */,
 				74022C691E5181570049FB76 /* ViewController.h */,
@@ -138,6 +164,16 @@
 				74022C8A1E5181570049FB76 /* Info.plist */,
 			);
 			path = "短信验证测试UITests";
+			sourceTree = "<group>";
+		};
+		74022C9E1E5183600049FB76 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				74022C9F1E5183600049FB76 /* SMS_SDKLocalizable.strings */,
+				74022CA11E5183600049FB76 /* MOBFoundation.framework */,
+				74022CA21E5183600049FB76 /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +261,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 74022C571E5181570049FB76;
 			productRefGroup = 74022C611E5181570049FB76 /* Products */;
@@ -243,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74022CA41E5183600049FB76 /* SMS_SDKLocalizable.strings in Resources */,
 				74022C731E5181570049FB76 /* LaunchScreen.storyboard in Resources */,
 				74022C701E5181570049FB76 /* Assets.xcassets in Resources */,
 				74022C6E1E5181570049FB76 /* Main.storyboard in Resources */,
@@ -322,6 +360,15 @@
 				74022C721E5181570049FB76 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74022C9F1E5183600049FB76 /* SMS_SDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74022CA01E5183600049FB76 /* en */,
+				74022CA31E5183600049FB76 /* zh-Hans */,
+			);
+			name = SMS_SDKLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,6 +462,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/短信验证测试/SMS_SDK",
+				);
 				INFOPLIST_FILE = "短信验证测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.------";
@@ -426,6 +477,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/短信验证测试/SMS_SDK",
+				);
 				INFOPLIST_FILE = "短信验证测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.------";
@@ -498,6 +553,7 @@
 				74022C8F1E5181570049FB76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74022C901E5181570049FB76 /* Build configuration list for PBXNativeTarget "短信验证测试Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +562,7 @@
 				74022C921E5181570049FB76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74022C931E5181570049FB76 /* Build configuration list for PBXNativeTarget "短信验证测试UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +571,7 @@
 				74022C951E5181570049FB76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

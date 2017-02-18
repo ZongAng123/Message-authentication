@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import <SMS_SDK/SMSSDK.h>
+#define appKey @"1b53bd3b0ea95"
+#define appSecret @"13a63cfbe731c65b159358d72d1e8294"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //初始化应用，appKey和appSecret从后台申请得
+    [SMSSDK registerApp:appKey withSecret:appSecret];
+    
     return YES;
 }
 
